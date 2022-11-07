@@ -4,12 +4,13 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    background-color: #6495ED;
+   
     font-family: 'Poppins', sans-serif;
 }
-nav{
+/* nav{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     padding: 10px 50px;
     align-items: center;
 }
@@ -35,18 +36,25 @@ ul li a{
 ul li a:hover{
     background-color: #06ec06;
     color: white;
-}
+} */
 .home-teks{
+    background-color: #6495ED;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
-    padding: 10px 50px;
+    min-height: 100vh;
+    padding: 0px 50px;
+}
+.home-teks-aja{
+    margin-top: 10px;
+    width: max-content;
+    
 }
 .home-teks h1{
     color: aliceblue;
     font-size: 60px;
-    margin-bottom: 40px;
+    /* margin-bottom: 80px; */
+    text-align: left;
 }
 .home-teks span{
     color:rgb(21, 44, 117) ;
@@ -76,4 +84,56 @@ img{
     border-radius: 50%;
     overflow: hidden;
     /* margin-right: 50px; */
+}
+.home-image-bungkus{
+    width: 400px;
+    height: 400px;
+}
+
+@media only screen and (max-width : 600px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 17px;
+    }
+    ul li{
+        margin: 0px 5px;
+        font-size: 15px;
+    }
+    ul li a{
+        padding: 0px 2.5px;
+
+    }
+    .home-teks{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .home-teks-aja h1{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .home-teks-aja{
+        order: 2;
+    }
+    .home-teks-aja a{
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .home-image {
+        order: 1;
+        width: max-content;
+        height: 300px;        
+    }
+    .home-image-bungkus{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
 }

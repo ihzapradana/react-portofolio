@@ -1,0 +1,36 @@
+nav{
+    position: absolute;
+    /* width: 100%; */
+    background-color: #6495ED;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 50px;
+    align-items: center;
+}
+.nav-menu{
+    float: right;
+}
+.logo{
+    font-size: 50px;
+    font-weight: 700;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin: 0 10px;
+    font-weight: 600px;
+    font-size: 20px;
+}
+ul li a{
+    padding: 8px 10px;
+    border-radius: 40px;
+    color: aliceblue;
+}
+ul li a:hover{
+    background-color: #06ec06;
+    color: white;
+}

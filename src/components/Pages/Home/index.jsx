@@ -3,10 +3,10 @@ import Home from "../../Home";
 
 function HomePage () {
     return (
-        <>
+        <div>
             < Navbar />
             <Home />
-        </>
+        </div>
     )
 }; 
 
