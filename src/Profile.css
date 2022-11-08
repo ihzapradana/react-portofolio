@@ -24,9 +24,9 @@
     overflow: hidden;
     margin-bottom: 25px;
 }
-h1{
+/* h1{
     margin-bottom: 15px;
-}
+} */
 
 .left-container{
     display: flex;
@@ -34,16 +34,17 @@ h1{
     align-items: center;
     /* position: fixed; */
     width: 400px;
-    height: 100vh;
-    /* background-color: #6495ED; */
+    /* height: 100vh; */
+    padding: 82px 0px;
+    background-color: #6495ED;
 }
 .nav-menu{
     display: flex;
 }
 .contact-btn{
-    width: 50%;
+    width: 60%;
     font-size: 15px;
-    padding: 10px;
+    padding: 10px 0px;
     margin-bottom: 15px;
     border-radius: 8px;
     outline: none;
@@ -53,11 +54,15 @@ h1{
     background-color: #06ec06;
     color: white;
 }
-.container{
+.container-profile{
     display: flex;
-    
+    /* margin-top: -10%; */
 }
-.content{
-    padding-top: 90px;
-    padding-left: 10px;
+.content-profle{
+    /* padding-top: 90px; */
+    padding: 30px 20px;
 }
+/* 
+.skil h1{
+    margin: 0;
+} */

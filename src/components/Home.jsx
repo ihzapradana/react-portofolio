@@ -7,7 +7,7 @@ function Home() {
                 <h1>Hi...I'm <span>Himawan</span> <br />
                     Ihza Pradana
                 </h1>
-                <a href="./profile/index.html">Explore Me</a>
+                <a href="./profile">Explore Me</a>
             </div>
             <div class="home-image">
                 <div class="home-image-bungkus">

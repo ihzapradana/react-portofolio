@@ -42,24 +42,24 @@ ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 100vh;
-    padding: 0px 50px;
+    /* min-height: 100vh; */
+    padding: 50px 50px 90px 50px;
 }
 .home-teks-aja{
     margin-top: 10px;
     width: max-content;
     
 }
-.home-teks h1{
+.home-teks-aja h1{
     color: aliceblue;
     font-size: 60px;
-    /* margin-bottom: 80px; */
+    margin-bottom: 80px;
     text-align: left;
 }
 .home-teks span{
     color:rgb(21, 44, 117) ;
 }
-.home-teks a{
+.home-teks-aja a{
     padding: 17px 80px;
     background-color: #06ec06;
     color: white;
