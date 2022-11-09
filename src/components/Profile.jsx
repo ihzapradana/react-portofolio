@@ -1,4 +1,5 @@
 import '../Profile.css'
+import List from './List'
 
 function Profile() {
     return (
@@ -19,14 +20,12 @@ function Profile() {
             <section className="content-profle">
             <div className="skil">
                 <h1>My Skills In Programming</h1>
-                <ol className="kemampuan">
-                    <li> 1. python = intermediet</li>
-                    <li>2. HTML = intermediet</li>
-                    <li>3. CSS = intermediet</li>
-                    <li>4. Javascript = intermediet</li>
-                    <li>5. PHP = beginner</li>
-                    <li>6. Dart = intermediet</li>
-                </ol>
+                <List data={['1. python = intermediet', 
+                            '2. HTML = intermediet',
+                            '3. CSS = intermediet',
+                            '4. Javascript = intermediet',
+                            '5. PHP = beginner',
+                            '6. Dart = intermediet']} />
             </div>
             <br />
             <h1>Projects That Have Been Created</h1>

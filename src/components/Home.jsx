@@ -9,8 +9,8 @@ function Home() {
                 </h1>
                 <a href="./profile">Explore Me</a>
             </div>
-            <div class="home-image">
-                <div class="home-image-bungkus">
+            <div className="home-image">
+                <div className="home-image-bungkus">
                     <img src="./image/himawan2.jpeg" alt="Gambar Himawan" />
                 </div>
             </div>
