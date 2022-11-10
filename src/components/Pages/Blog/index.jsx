@@ -1,12 +1,12 @@
 import Blog from "../../Blog";
-import Navbar from "../../Navbar";
+import Layout from "../../Layout";
+
 
 function BlogPage() {
     return (
-        <>
-            <Navbar />
+        <Layout>
             <Blog />
-        </>
+        </Layout>
     )
 };
 

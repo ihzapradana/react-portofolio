@@ -1,12 +1,11 @@
-import Navbar from "../../Navbar";
 import Home from "../../Home";
+import Layout from "../../Layout";
 
 function HomePage () {
     return (
-        <div>
-            < Navbar />
+        <Layout>
             <Home />
-        </div>
+        </Layout>
     )
 }; 
 

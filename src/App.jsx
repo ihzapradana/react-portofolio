@@ -15,15 +15,6 @@ function App() {
 
   return (
     <>
-    {/* <nav>
-        <a href="" className="logo">Hims</a>
-        <ul className="nav-menu">
-            <li><Link to={"/"}>Home</Link></li>
-            <li><Link to={"/about"}>About Me</Link></li>
-            <li><Link to={"/profile"}>Portofolio</Link></li>
-            <li><Link to={"/blog"}>Blog</Link></li>
-        </ul>
-    </nav> */}
       <Routes>
         <Route path='/' element={<HomePage />}/>
         <Route path='/about' element={<AboutMePage />}/>

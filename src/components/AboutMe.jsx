@@ -1,6 +1,12 @@
 import '../AboutMe.css'
+import {useState} from 'react'
 
 function AboutMe() {
+
+    const [text, setText] = useState(`Saya adalah Himawan Ihza Pradana, mahasiswa semester 5 Universitas Jember. Di Universitas Jember, saya adalah mahasiswa Fakultas Ilmu Komputer Program Studi Teknologi Informasi.
+    Di semester ini, saya sedang mengikuti Program Kampus Merdeka yaitu Studi Independent Bersertifikat di Skilvul Tech#4Impact. Di program tersebut, saya mengikuti learning track Front End Web Development. 
+    Harapan saya setelah mengikuti program Kampus Merdeka MSIB ini yaitu saya bisa menjadi seorang web developer khususnya Front End dan bisa magang di semester selanjutnya.`)
+
     return (
         
         <main className='about'>
@@ -8,10 +14,7 @@ function AboutMe() {
                 <section className="container">
                     <div className="content">
                         <img className="img-about"src="../image/about.jpg" alt="" />
-                        <p>Saya adalah Himawan Ihza Pradana, mahasiswa semester 5 Universitas Jember. Di Universitas Jember, saya adalah mahasiswa Fakultas Ilmu Komputer Program Studi Teknologi Informasi.
-                            Di semester ini, saya sedang mengikuti Program Kampus Merdeka yaitu Studi Independent Bersertifikat di Skilvul Tech#4Impact. Di program tersebut, saya mengikuti learning track Front End Web Development. 
-                            Harapan saya setelah mengikuti program Kampus Merdeka MSIB ini yaitu saya bisa menjadi seorang web developer khususnya Front End dan bisa magang di semester selanjutnya.
-                        </p>
+                        <p>{text}</p>
                     </div>
             </section>
         </main>
