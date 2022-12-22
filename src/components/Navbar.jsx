@@ -9,7 +9,7 @@ function Navbar() {
             <li><Link to={"/"}>Home</Link></li>
             <li><Link to={"/about"}>About Me</Link></li>
             <li><Link to={"/profile"}>Portofolio</Link></li>
-            <li><Link to={"/blog"}>Blog</Link></li>
+            <li><Link to={"/blog"}>Block</Link></li>
         </ul>
     </nav>
     );
