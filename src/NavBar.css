@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-nav{
+/* nav{
     background-color:#6495ED ;
     display: flex;
     justify-content: space-between;
@@ -30,6 +30,6 @@ ul li a{
     color: aliceblue;
 }
 ul li a:hover{
-    background-color: #06ec06;
+    background-color: #06ec06; 
     color: white;
-}
+} */

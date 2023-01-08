@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,600;1,700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 *{
     margin: 0;
     padding: 0;
@@ -48,7 +44,7 @@ ul li a:hover{
     align-items: center;
     justify-content: space-between;
     /* min-height: 100vh; */
-    padding: 50px 50px 90px 50px;
+    padding: 59px 50px 90px 50px;
 }
 .home-teks-aja{
     margin-top: 10px;

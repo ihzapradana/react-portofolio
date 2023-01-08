@@ -10,10 +10,12 @@ function AboutMe() {
     return (
         
         <main className='about'>
-            <section className="about-me"><h1>About Me</h1></section>
+            <section className="about-me"><h1 className='text-4xl'>About Me</h1></section>
                 <section className="container">
                     <div className="content">
-                        <img className="img-about"src="../image/about.jpg" alt="" />
+                        <div className='flex justify-center'>
+                            <img className="img-about"src="../image/about.jpg" alt="" />
+                        </div>
                         <p>{text}</p>
                     </div>
             </section>
